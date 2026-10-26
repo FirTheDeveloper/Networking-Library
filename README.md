@@ -31,3 +31,19 @@ print(coins)
 -- Fire the event from the client
 Network.FireServer("ExampleEvent", "Hello world!")
 ```
+
+Args:
+```lua
+Network.InvokeServer(timeout, functionName)
+Network.FireServer(event, args (can be however long you want))
+Network.BindFunctions({
+    event name = function(player, args)
+        --do something
+    end
+})
+
+Network.BindEvents({
+    event name = function(player, args)
+        --do something
+    end
+})
