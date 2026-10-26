@@ -1,5 +1,4 @@
-I'm not updating this don't even ask me to do it
-
+I got bored, needed a network library for Valora Gateway. This is the result.
 Usage:
 SERVER:
 ```lua
